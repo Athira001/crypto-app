@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.home__body {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 100%;
+  background-color: #f4f5f7;
+}
+
+.home__sidebar {
+  width: 300px;
+  background-color: #000;
+  color: #ccc;
+  padding: 15px;
+  height: 100%;
+}
+ul.sidebar-menu {
+  padding-left: 0px;
+}
+ul.sidebar-menu li {
+  list-style: none;
+  line-height: 28px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+ul.sidebar-menu li a {
+  color: #ccc;
+  text-decoration: none;
+}

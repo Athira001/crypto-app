@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Logo from './image/logo.svg';
 import './index.css';
 
@@ -46,7 +47,10 @@ class Login extends Component {
              <button type="submit" className="Btn-blue">Hide</button>
             </div>
             <p className="font-small"> <a href="">Forgot your password?</a> </p>
-            <p className="align-center"><button type="submit" className="btn btn-join">Login</button></p>
+            <p className="align-center">
+              {/*<button type="submit" className="btn btn-join">Login</button>*/}
+              <Link to='/app'>Login </Link>
+            </p>
            </div>
           </div>
           
